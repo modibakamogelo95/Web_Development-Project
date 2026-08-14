@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Leap Sports Co.</title>
+  <meta name="description" content="Find Leap Sports Co. stores, opening hours, and send a contact message.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 24 L14 8 L18 8 L11 20 L20 20 L14 28 Z" fill="#E4402C"/>
+        </svg>
+        Leap Sports Co.
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="main-nav" id="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:40px;">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Find a store, or send us a message.</h1>
+      <p class="lede">Two stores, one community. Drop by, or reach out below.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="locations">
+        <div class="location-card">
+          <h3>Leap Sports Co. — Main Store</h3>
+          <div class="map-embed">
+            <iframe
+              src="https://maps.google.com/maps?q=Polokwane%20CBD%2C%20Limpopo&z=14&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing Leap Sports Co. main store in Polokwane CBD">
+            </iframe>
+          </div>
+          <p><strong>Address:</strong> 14 Landdros Mare Street, Polokwane CBD, Limpopo</p>
+          <p><strong>Hours:</strong> Mon–Sat, 9am–5pm · Closed Sundays</p>
+          <p><strong>Phone:</strong> 015 123 4567</p>
+        </div>
+
+        <div class="location-card">
+          <h3>Leap Sports Co. — Mall Kiosk</h3>
+          <div class="map-embed">
+            <iframe
+              src="https://maps.google.com/maps?q=Mall%20of%20the%20North%2C%20Polokwane&z=14&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing Leap Sports Co. kiosk at Mall of the North, Polokwane">
+            </iframe>
+          </div>
+          <p><strong>Address:</strong> Kiosk 8, Mall of the North, Polokwane, Limpopo</p>
+          <p><strong>Hours:</strong> Mon–Sun, 9am–6pm</p>
+          <p><strong>Phone:</strong> 015 765 4321</p>
+        </div>
+      </div>
+
+      <div class="form-wrap">
+        <div class="form-status" role="status"></div>
+        <form data-validate novalidate data-success-message="Thank you for contacting us — we'll get back to you shortly.">
+          <div class="field">
+            <label for="c-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="c-name" name="name" required>
+            <span class="error-msg">Please enter your full name.</span>
+          </div>
+
+          <div class="field">
+            <label for="c-email">Email Address <span class="req">*</span></label>
+            <input type="email" id="c-email" name="email" required>
+            <span class="error-msg">Please enter a valid email address.</span>
+          </div>
+
+          <div class="field">
+            <label for="c-store">Preferred Store</label>
+            <select id="c-store" name="store">
+              <option value="main">Main Store — Polokwane CBD</option>
+              <option value="mall">Mall Kiosk — Mall of the North</option>
+              <option value="either">No preference</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="c-message">Message <span class="req">*</span></label>
+            <textarea id="c-message" name="message" placeholder="How can we help?" required></textarea>
+            <span class="error-msg">Please enter a message.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Leap Sports Co.</h3>
+          <p style="color:#c9cede;">Footwear, apparel and training accessories for amateur athletes and fitness enthusiasts, since 2015.</p>
+        </div>
+        <div>
+          <h3>Site</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Get in touch</h3>
+          <ul>
+            <li>Mon–Sat, 9am–5pm</li>
+            <li><a href="contact.html">Store details &amp; map</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Leap Sports Co. All rights reserved.</span>
+        <span>Fictional brand created for the WEDE5020 Web Development PoE.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

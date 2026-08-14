@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | Leap Sports Co.</title>
+  <meta name="description" content="Ask Leap Sports Co. about product availability, sizing or stock.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 24 L14 8 L18 8 L11 20 L20 20 L14 28 Z" fill="#E4402C"/>
+        </svg>
+        Leap Sports Co.
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="main-nav" id="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:40px;">
+    <div class="container">
+      <p class="eyebrow">Product &amp; Stock Enquiry</p>
+      <h1>Ask us about product or stock availability.</h1>
+      <p class="lede">Tell us what you're after and the team will confirm sizing and availability before you visit — or ship, once online ordering is live.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="form-wrap">
+        <div class="form-status" role="status"></div>
+        <form data-validate novalidate data-success-message="Thank you for your enquiry — we'll get back to you shortly.">
+          <div class="field">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-msg">Please enter your full name.</span>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg">Please enter a valid email address.</span>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567">
+            <span class="error-msg">Please enter a valid phone number.</span>
+          </div>
+
+          <div class="field">
+            <label for="category">Product Category <span class="req">*</span></label>
+            <select id="category" name="category" required>
+              <option value="">Select a category</option>
+              <option value="footwear">Footwear</option>
+              <option value="apparel">Apparel</option>
+              <option value="accessories">Training Accessories</option>
+              <option value="other">Other / Not sure</option>
+            </select>
+            <span class="error-msg">Please select a product category.</span>
+          </div>
+
+          <div class="field">
+            <label for="product">Product / Size Details <span class="req">*</span></label>
+            <input type="text" id="product" name="product" placeholder="e.g. Road running shoes, size UK 8" required>
+            <span class="error-msg">Please tell us which product or size you're after.</span>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Any extra detail — colour preference, when you need it, etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Leap Sports Co.</h3>
+          <p style="color:#c9cede;">Footwear, apparel and training accessories for amateur athletes and fitness enthusiasts, since 2015.</p>
+        </div>
+        <div>
+          <h3>Site</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Get in touch</h3>
+          <ul>
+            <li>Mon–Sat, 9am–5pm</li>
+            <li><a href="contact.html">Store details &amp; map</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Leap Sports Co. All rights reserved.</span>
+        <span>Fictional brand created for the WEDE5020 Web Development PoE.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
