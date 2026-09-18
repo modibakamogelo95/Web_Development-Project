@@ -94,6 +94,16 @@ leap-sports-co/
 ## References
 - Google Fonts, 2026. *Anton* and *Work Sans* [online]. Available at: https://fonts.google.com [Accessed 14 August 2026].
 - Google Maps, 2026. *Google Maps embed* [online]. Available at: https://maps.google.com [Accessed 14 August 2026].
+
+## Part 2 Details
+
+- Created an external stylesheet (css/style.css) linked to 5 pages
+- A Base styles (font-family, colour variables, CSS reset)
+- Added Flexbox/Grid layout for homepage hero and products page cards
+- Created media queries for tablet (768px) and mobile (480px) breakpoints
+- Added hover/focus states on nav links and buttons
+- Added responsive images using srcset/picture where applicable
+
 - The Independent Institute of Education (Pty) Ltd, 2026. *WEDE5020: Web Development (Introduction) — Portfolio of Evidence*. Module guide.
 
 General references used for Part 1 will continue to be compiled here as the
