@@ -104,6 +104,18 @@ leap-sports-co/
 - Added hover/focus states on nav links and buttons
 - Added responsive images using srcset/picture where applicable
 
+## File and Folder Structure
+```
+leap-sports-co/
+├── index.html
+├── about.html
+├── products.html
+├── enquiry.html
+├── contact.html
+├── README.md
+├── css/
+│   └── style.css
+
 - The Independent Institute of Education (Pty) Ltd, 2026. *WEDE5020: Web Development (Introduction) — Portfolio of Evidence*. Module guide.
 
 General references used for Part 1 will continue to be compiled here as the
