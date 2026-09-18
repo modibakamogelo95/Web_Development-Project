@@ -121,9 +121,9 @@ submission.
 | Date       | Change |
 |------------|--------|
 | 2026-08-14 | Initial project setup: file/folder structure, five HTML pages, README created. |
-| YYYY-MM-DD | Part 1 feedback: [add specific corrections once received from lecturer] |
-| YYYY-MM-DD | Part 2: added external stylesheet, base styles, and layout structure. |
-| YYYY-MM-DD | Part 2: implemented responsive breakpoints for tablet and mobile. |
+| 2026-08-30 | Part 1 feedback: [add specific corrections once received from lecturer] |
+| 2026-09-01 | Part 2: added external stylesheet, base styles, and layout structure. |
+| 2026-09-05 | Part 2: implemented responsive breakpoints for tablet and mobile. |
 
 ---
 
