@@ -549,4 +549,3 @@ section { padding: 70px 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
-random
