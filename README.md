@@ -95,7 +95,7 @@ leap-sports-co/
 - Google Fonts, 2026. *Anton* and *Work Sans* [online]. Available at: https://fonts.google.com [Accessed 14 August 2026].
 - Google Maps, 2026. *Google Maps embed* [online]. Available at: https://maps.google.com [Accessed 14 August 2026].
 
-## Part 2 Details
+### Part 2 Details
 
 - Created an external stylesheet (css/style.css) linked to 5 pages
 - A Base styles (font-family, colour variables, CSS reset)
