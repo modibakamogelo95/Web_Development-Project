@@ -73,13 +73,6 @@ leap-sports-co/
 ├── enquiry.html
 ├── contact.html
 ├── README.md
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── images/
-    └── (placeholder — add sourced/licensed product and store photos here)
-```
 
 ## Design Notes
 - **Colour scheme:** Navy (`#101c3d`) and red (`#e4402c`), as specified in the
