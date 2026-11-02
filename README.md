@@ -112,8 +112,22 @@ Part 2 (Designing the Visuals) delivers:
 - Hover/focus states on navigation links and buttons
 - Responsive images using `srcset`/`picture` where applicable
 
-Part 3 (Adding Functionality) will build on this foundation in a future
-submission.
+## Part 3 Details
+Part 3 (Adding Interactivity) delivers:
+
+- An external script (js/script.js) linked to all five pages
+- All code wrapped in a DOMContentLoaded listener so it runs once the page has loaded
+- Mobile navigation toggle that opens and closes the menu via an open class on .main-nav
+- Accessibility support through aria-expanded updates and a button label that switches between     “Menu” and “Close”
+- Auto-close of the mobile menu when a navigation link is chosen
+- Generic client-side validation for the Enquiry and Contact forms, driven by the data-validate attribute
+- Required-field checks that trim whitespace so empty or space-only entries are rejected
+- Email format validation using a regular expression (text, @, domain and extension, no spaces)
+- Telephone validation allowing digits, +, spaces, brackets and hyphens, with a minimum of seven characters
+- Invalid fields flagged by toggling an invalid class on the parent .field wrapper for CSS highlighting
+- Visitor feedback in the .form-status element: a customisable success message (via data-success-message) or an error prompt
+- Live error clearing as the visitor types, and form.reset() after a successful submission
+- Defensive checks (if (wrapper), if (status), if (toggle && nav)) to prevent errors on pages with different markup
 
 ---
 
