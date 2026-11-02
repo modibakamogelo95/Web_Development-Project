@@ -138,6 +138,11 @@ Part 3 (Adding Interactivity) delivers:
 | 2026-08-30 | Part 1 feedback: [add specific corrections once received from lecturer] |
 | 2026-09-01 | Part 2: added external stylesheet, base styles, and layout structure. |
 | 2026-09-05 | Part 2: implemented responsive breakpoints for tablet and mobile. |
+| 2026-10-12 | Part 3: created external script (`js/script.js`) and linked it to all five pages. |
+| 2026-10-15 | Part 3: added mobile navigation toggle with `aria-expanded` support and auto-close on link click. |
+| 2026-10-19 | Part 3: implemented client-side validation for the Enquiry and Contact forms (required fields, email and telephone formats). |
+| 2026-10-22 | Part 3: added visitor feedback messages, live error clearing and form reset on successful submission. |
+| 2026-10-25 | Part 3: tested forms and navigation across desktop, tablet and mobile; fixed issues found. |
 
 ---
 
